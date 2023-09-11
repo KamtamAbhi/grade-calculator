@@ -19,6 +19,7 @@ print(my_grades)
 # Calculate course grade based on the grades set above
 percentage_grade = GradeCalculator.calculate_course_percentage(my_grades, weights)
 if percentage_grade is None:
+    
     print("Can't calculate overall course grade without all individual grades.")
 else:
     letter_grade = GradeCalculator.calculate_letter_grade(percentage_grade)
