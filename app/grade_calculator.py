@@ -82,3 +82,5 @@ class GradeCalculator:
             return 'D'
         else:
             return 'F'
+        
+        # This is a test comment adding to my git repos. Doing this for the 1st time.
